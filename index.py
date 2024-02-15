@@ -16,8 +16,8 @@ class TextToSpeech:
             volume = self.engine.getProperty('volume')   
             self.engine.setProperty('volume',setup.volume)
             
-            voices = self.engine.getProperty('voices')      
-            self.engine.setProperty('voice', voices[setup.voice_id].id)
+            # voices = self.engine.getProperty('voices')      
+            # self.engine.setProperty('voice', voices[setup.voice_id].id)
         except Exception as e:
             print(e)
         

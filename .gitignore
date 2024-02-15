@@ -1,2 +1,4 @@
-/scrappyjs/index.js
-/scrappyjs/node_modules
+/scraping/index.js
+/scraping/node_modules
+/env
+/__pycache__
